@@ -2,7 +2,8 @@
 ESP32 mit Relais schält einen Widerstand in einen NTC oder PTC wie in alten Wärmepumpen verwendet
 
 # Verwendung
-Stellt einen Switch -Button auf Website bereit.
+Stellt einen Switch -Button auf mobiler Website bereit.
+
 Kann auch mit CURL-Kommando gesteuert werden: 
 
 curl -X POST http://IP-ADRESSE/? --data "relais=2"
