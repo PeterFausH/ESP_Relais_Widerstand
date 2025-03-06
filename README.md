@@ -21,19 +21,22 @@ DS18B20 mit Edelstahlkopf und 3m Leitung
 beliebiger Taster mit 2 Leitungen
 
 # Verdrahtung
-Relais:  +      --> V5 vom Nodemcu
+Relais:  
+         +      --> V5 vom Nodemcu
 
          -      --> GND
          
          Signal --> G5
          
 
-Taster:  a  -->  G4 vom Nodemcu
+Taster:  
+         a  -->  G4 vom Nodemcu
 
          b  -->  GND
          
 
-DS18B20: +      --> 3,3V am Nodemcu  
+DS18B20: 
+         +      --> 3,3V am Nodemcu  
 
          Signal --> G0 (mit 4,7kOhm zu 3,3V)
          
